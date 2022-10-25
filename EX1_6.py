@@ -21,3 +21,6 @@ elif Roman_Numerals == 10:
     print("X")
 else:
     print("Wrong input! ")
+
+# int -> str
+# convert each insert input that user does into a roman numerals
