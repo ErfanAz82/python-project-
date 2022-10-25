@@ -7,3 +7,6 @@ elif age < 20:
     print("You are an teenager.")
 elif age >= 20:
     print("You are an adult.")
+    
+# float -> str
+# range the age which user inserted in program
