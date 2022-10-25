@@ -1,4 +1,4 @@
-day= int(input("Enter a number: "))
+day = int(input("Enter a number: "))
 
 if (day==1):
     print("Monday")
@@ -16,3 +16,6 @@ elif (day==7):
     print("Sunday")
 else:
     print("Wrong Input!")
+   
+# int -> str
+# show the day of the week by reciving aninput from user
