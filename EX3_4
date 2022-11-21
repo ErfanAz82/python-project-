@@ -1,0 +1,6 @@
+def md(a, b, c):
+    y = a*(2**b)
+    if y % c == 0:
+        return True
+    else:
+        return False
