@@ -1,0 +1,10 @@
+def face(list):
+    a = max(list)
+    b = min(list)
+    c = b - a
+    if c in list:
+        return (':)')
+    elif len(list) == 0:
+        return(':/')
+    else:
+        return(':(')
