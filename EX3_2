@@ -1,0 +1,9 @@
+def map(x):
+    list=[]
+    for i in range (0,len(x)-1):
+     y=x[i]*x[i+1]
+     list.append(y)
+    list.sort(reverse=True)
+    return list[0]
+
+map([2, 12, 8, 9, 23, 18])
